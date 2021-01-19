@@ -1,5 +1,5 @@
 Name: nmap
-Version: 7.80
+Version: 7.91
 Release: alt1
 Epoch: 20020501
 
@@ -114,7 +114,7 @@ rm %buildroot%_datadir/zenmap/su-to-zenmap.sh
 %_bindir/nping
 %_man1dir/nping.*
 %endif
-%doc COPYING* CHANGELOG.bz2 docs/{README,nmap*.txt}
+%doc LICENSE CHANGELOG.bz2 docs/{README,nmap*.txt}
 
 %if_with zenmap
 %files -n zenmap -f zenmap.lang
@@ -129,6 +129,9 @@ rm %buildroot%_datadir/zenmap/su-to-zenmap.sh
 %endif
 
 %changelog
+* Tue Jan 19 2021 Dmitriy Voropaev <voropaevdmtr@altlinux.org> 20020501:7.91-alt1
+- Updated to 7.91.
+
 * Fri Aug 16 2019 Gleb F-Malinovskiy <glebfm@altlinux.org> 20020501:7.80-alt1
 - Updated to 7.80.
 
