@@ -4,7 +4,7 @@ Release: alt1
 Epoch: 20020501
 
 Summary: Network exploration tool and security scanner
-License: GPLv2
+License: ALT-NPSL-0.92
 Group: Monitoring
 Url: http://nmap.org/
 
